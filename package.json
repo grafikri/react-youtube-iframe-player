@@ -1,0 +1,43 @@
+{
+  "name": "react-youtube-iframe-player",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "browser": "dist/index.js",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "youtube-iframe-api-module": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/react": ">=18.0.0",
+    "typescript": "^5.9.2"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "keywords": [
+    "react",
+    "youtube",
+    "iframe-api",
+    "youtube-api",
+    "typescript",
+    "esm",
+    "browser",
+    "npm-package",
+    "video-player",
+    "youtube-player",
+    "youtube-wrapper"
+  ],
+  "author": "Serhan Coşkun",
+  "license": "ISC",
+  "description": "A lightweight React hook wrapper for the YouTube IFrame API, making it easy to integrate YouTube videos in React applications."
+}
