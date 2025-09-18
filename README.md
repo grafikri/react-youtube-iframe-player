@@ -62,5 +62,3 @@ const { player, isPlayerReady } = useYoutubeIframeApi(tagId, options)
 
 * Since `player` is `undefined` in the first place consider `optional chaining` check before using it. You can apply `isPlayerReady` too. When the `player` instance ready it will be `true`
 * You can access the `player` instance with `event.target` in the event definitions.
-
-# react-youtube-iframe-player
