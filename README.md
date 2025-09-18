@@ -1,6 +1,8 @@
 # YouTube IFrame Player for React
 
-You can access YouTube IFrame Player API with this React hook. The hook will return the `player`. You can then refer to [the YouTube Player API for IFrame API reference](https://developers.google.com/youtube/iframe_api_reference).
+This React hook lets you use the YouTube IFrame Player API easily. It gives you the player, and you can start using [the official YouTube Player API for IFrame reference](https://developers.google.com/youtube/iframe_api_reference) in your project.
+
+> For the Vanilla JS version you can check out [youtube-iframe-api-module](https://github.com/grafikri/youtube-iframe-api-module).
 
 ## Installation
 
